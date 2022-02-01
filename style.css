@@ -1,0 +1,387 @@
+/* 
+  font-family: "Merriweather", serif;
+ */
+* {
+  margin: 0px;
+}
+
+.border-radius {
+  border-radius: 5%;
+}
+
+.padding-top {
+  padding-top: 0px;
+}
+
+.image-radius {
+  border-radius: 50%;
+}
+
+.font {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  height: 100vw;
+}
+/* HEADER */
+
+.main-header {
+  background-color: #f3f0d7;
+  padding-top: 1%;
+  padding-left: 10%;
+  width: auto;
+}
+
+nav {
+  font-size: 1.2rem;
+}
+
+nav a:link {
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+nav a:link:last-child {
+  margin-right: 0;
+}
+
+/* Styling links */
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: #ffbf86;
+  font-weight: bold;
+  text-decoration: underline #ffbf86;
+}
+
+.p-header {
+  display: inline-block;
+  font-size: 1.43rem;
+}
+
+/* ------------------------- */
+
+/* HOME */
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+  text-align: center;
+}
+
+.flex-item {
+  width: 30%;
+  height: 30%;
+  padding-top: 8%;
+}
+
+iframe {
+  border: 0px;
+  width: 50%;
+  height: 30%;
+  font-size: 2rem;
+  padding-top: 5%;
+}
+
+h1 {
+  padding-top: 10%;
+  text-align: center;
+  font-size: 4rem;
+  font-family: "Sacramento", cursive;
+  height: auto;
+}
+
+h3 {
+  font-size: 1.7rem;
+  font-family: "Zen Kurenaido", sans-serif;
+}
+
+/* ------------------------- */
+
+/* DIVS BODY */
+.div-body {
+  margin: 0;
+  width: 100%;
+  height: 58.1rem;
+}
+
+.bg-light-green {
+  background-color: #f3f0d7;
+}
+
+.bg-green {
+  background-color: #cee5d0;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.1rem;
+  padding: 40px 30px 30px 30px;
+}
+
+/* ------------------------- */
+
+/* ABOUT ME */
+
+.flex-container-about {
+  display: flex;
+  width: 90%;
+  height: 37.5rem;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}
+
+.flex-container-about-item {
+  height: 37.5rem;
+  width: 100%;
+  text-align: center;
+  font-size: 120%;
+}
+
+.line-height {
+  line-height: 156%;
+}
+
+.img-icon {
+  position: relative;
+  width: 6%;
+  height: 6%;
+}
+
+.font-courier {
+  font-family: "Courier Prime", monospace;
+}
+
+.img-rebeca {
+  position: relative;
+  top: 25%;
+}
+
+.position {
+  position: relative;
+  top: 15%;
+  width: 90%;
+  text-align: justify;
+}
+
+.indent {
+  text-indent: 30px;
+}
+
+.table-about {
+  text-align: start;
+  border-spacing: 10px;
+  padding: 5px;
+  border: 1px solid black;
+  width: auto;
+  position: relative;
+  top: 10%;
+  left: 5%;
+  margin: 0 auto 0 auto;
+  vertical-align: middle;
+}
+
+/* ------------------------- */
+
+/* PORTFOLIO */
+.grid-container {
+  display: grid;
+  height: 43.75rem;
+  width: 100%;
+  grid-gap: 50px 50px;
+  grid-template-columns: 20% 20% 20%;
+  grid-template-rows: 45% 45%;
+  justify-content: center;
+}
+
+.grid-item {
+  background-color: white;
+  text-align: center;
+}
+
+.flex-container-item {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  border: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+
+.flex-subitem {
+  text-align: center;
+  font-size: 100%;
+}
+
+.first {
+  width: 100%;
+  height: 70%;
+}
+
+.second {
+  width: 100%;
+  height: 30%;
+}
+
+.p-flex {
+  padding-top: 3%;
+}
+
+/* ------------------------- */
+
+/* CONTACT ME*/
+.div-form {
+  text-align: center;
+  width: 100%;
+  margin: 0px 0;
+}
+
+form {
+  padding-bottom: 50px;
+  padding-top: 40px;
+  display: inline-block;
+  width: 40%;
+}
+
+form label {
+  display: block;
+  font-size: 1.25rem;
+}
+
+.input-form {
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 0px;
+  width: 100%;
+  text-align: center;
+  font-size: 0.938rem;
+  font-family: "Montserrat", sans-serif;
+  line-height: 140%;
+}
+
+/* ------------------------- */
+
+/* FOOTER*/
+
+.flex-container-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  width: 100%;
+  height: 50px;
+  padding: 10px 0px;
+}
+
+.height-auto {
+  height: auto;
+}
+
+.icon {
+  padding: 10px 10px;
+  width: 1.875rem;
+  height: 1.875rem;
+}
+
+.p-footer {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+/* ------------------------- */
+
+@media screen and (max-width: 1000px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 1.9rem;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+  }
+
+  nav {
+    font-size: 0.9rem;
+  }
+
+  /* ABOUT ME */
+  .flex-container-about {
+    flex-direction: column;
+    font-size: 90%;
+  }
+
+  .img-rebeca {
+    width: 40%;
+  }
+
+  .table-about {
+    width: 60%;
+  }
+
+  /* PORTFOLIO */
+  .grid-container {
+    grid-template-columns: 80%;
+    grid-template-rows: 45% 45% 45% 45% 45% 45%;
+    overflow: scroll;
+  }
+
+  .grid-item {
+    width: 50%;
+    justify-self: center;
+  }
+
+  .flex-container-about,
+  .flex-container-about-item {
+    height: auto;
+  }
+
+  .div-body {
+    /* overflow: auto;
+    height: 100%; */
+    height: auto;
+  }
+
+  .position {
+    top: 0px;
+  }
+
+  .img-rebeca {
+    padding: 20px;
+  }
+}
+/* @media screen {
+  flex-wrap: wrap; (quebrar linha)
+  flex-flow: column wrap (flex-direction + flex-wrap)
+} */
+
+/* 
+justify-content
+align-items
+flex-direction
+order
+align-self
+flex-wrap
+flex-flow
+align-content */
+
+/* 
+This can be confusing, but align-content determines the spacing between lines, while align-items determines how the 
+items as a whole are aligned within the container. When there is only one line, align-content has no effect. */
